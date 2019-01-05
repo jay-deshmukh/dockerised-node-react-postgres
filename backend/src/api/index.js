@@ -19,6 +19,7 @@ require("./contract/contract-get")(api);
 require("./contract/contracts-list")(api);
 require("./customer/customer-get")(api);
 require("./customer/customers-list")(api);
+require("./offer/offer-get")(api);
 require("./offer/offer-post")(api);
 require("./partner/partner-get")(api);
 require("./partner/partners-list")(api);
