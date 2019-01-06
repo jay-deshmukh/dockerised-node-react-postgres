@@ -1,0 +1,112 @@
+.container {
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.offer {
+  position: relative;
+  height: 90px;
+  border: 0.5px solid #ececec;
+}
+
+.offer:hover {
+  background-color: #fbfcff;
+  border : 0.5px solid  #c0d0ff;
+}
+
+.offer-price {
+  position: absolute;
+  left: 70%;
+  top: 40%;
+  font-weight: 700;
+  text-align: left;
+}
+
+.accept-offer {
+  position: absolute;
+  left: 85%;
+  background-color: #FFCD00;
+  width: 150px;
+  height: 50px;
+  font-weight: 700;
+  top:  20px;
+  bottom: 20px;
+  border-radius: 10px;
+  border-color: #FFCD00;
+  font-size: 1em
+}
+
+.dot {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: #44c600;
+  display: inline-block;
+  border-radius: 50%;
+  top: 30%;
+  left: 3%;
+}
+
+.customer-name {
+  position: absolute;
+  left: 5%;
+  top: 25%;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.customer-company {
+  position: absolute;
+  left: 5%;
+  top: 65%;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: rgb(145, 145, 145)
+}
+
+.accepted-offer-price{
+  position: absolute;
+  left: 90%;
+  top: 40%;
+  font-weight: 700;
+  font-size: 1.2em 
+}
+
+.accepted-offer{
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: rgb(116, 116, 116);
+  font-size: 1.2em; 
+  font-weight: 400;
+}
+
+.heading{
+  font-size: 3em;
+  font-weight: 300;
+}
+.new-offer {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: grey;
+  font-size: 1.2em; 
+  font-weight: 500;
+}
+
+.accept-offer:focus{
+  border: none
+}
+
+.loader{
+  margin : 20% auto;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #FFCD00; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

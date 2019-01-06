@@ -1,13 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import axios from "axios";
+
+import Offers from "./components/offers";
+import ErrorBoundry from "./components/error-boundry";
 import logo from "./images/logo.svg";
 import "./styles/main.css";
 
 const App = () => (
     <div>
-        <h1>Frontend Coding Challenge</h1>
-        <p>Please edit here to start the coding challenge</p>
+        <img className="logo" src={logo} alt="tiger logo"/>
+        <ErrorBoundry>
+            <Offers />
+        </ErrorBoundry>
     </div>
 );
 
