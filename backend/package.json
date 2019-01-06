@@ -1,14 +1,17 @@
 {
   "scripts": {
-    "start": "nodemon -L --watch src --signal SIGTERM src/server"
+    "start": "nodemon -L --watch src --signal SIGTERM src/server",
+    "test": "mocha test/ --reporter spec"
   },
   "dependencies": {
+    "chai-http": "^4.2.1",
     "cors": "~2.8.5",
     "express": "~4.16.4",
-    "lodash": "~4.17.11",
+    "lodash": "^4.17.11",
     "pg": "~7.7.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "~5.10.0",
     "eslint-config-airbnb-base": "~13.1.0",
     "eslint-plugin-import": "~2.14.0",
