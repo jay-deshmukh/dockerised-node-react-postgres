@@ -44,3 +44,13 @@ Please beware of the following general guidelines:
 ## PG database
 
 Should you need to connect a client to the PG database directly to look at data or otherwise, here is the connection string: `postgres://backend:backend@localhost:9998/app`.
+
+
+## To Run Test (Bonus !)
+
+- `cd backend`
+- `yarn run test`
+
+```
+p.s make sure you have mocha installed globally
+```
