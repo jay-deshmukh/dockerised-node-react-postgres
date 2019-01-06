@@ -65,7 +65,7 @@ const handler_get_offer = async (request, response) => {
       `);
 
         for (let i = 0; i < offers.length; i += 1) {
-        // schedule_matches = _.match // TODO :: Match two objects (BONUS!)
+            offers[i].schedule_matches = _.isMatch(offers[i].schedule, partner.working_schedule); // TODO :: Match two objects (BONUS!)
             offers[i].contract_price = await price_tool.get_offer_price({ area_code: offers[i].area_code, customer_id : offers[i].id });
             if (offers[i].served_by === null) {
                 offers[i].status = "new";
