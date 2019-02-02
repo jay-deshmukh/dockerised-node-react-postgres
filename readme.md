@@ -1,9 +1,3 @@
-
-# Code Challenge
-
-> Welcome to our code challenge! This readme will get you started.
-
-
 ## Setup and run
 
 To run the server, just make sure you have [Docker](https://www.docker.com) installed and in a terminal run:
@@ -29,8 +23,6 @@ docker-compose down
 
 The PG data persists in the `pg-data` folder inside the repository. If you want to start over with the predefined test data, you can delete this folder.
 
-
-## Tasks
 
 Look for the `tasks*.md` in the root of this repository. Each headline defines a single task. Please perform any task described there as good as you can. If you can't finish everything in time, it's fine, just hand it in before your deadline. The tasks marked as a “bonus” are not mandatory, but they have the opportunity to give you some extra credits.
 
