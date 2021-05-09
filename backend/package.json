@@ -7,7 +7,7 @@
     "chai-http": "^4.2.1",
     "cors": "~2.8.5",
     "express": "~4.16.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "pg": "~7.7.1"
   },
   "devDependencies": {
